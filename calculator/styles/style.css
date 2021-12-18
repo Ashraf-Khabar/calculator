@@ -1,0 +1,12 @@
+body
+{
+    background-color: rgb(170, 231, 201);
+}
+
+input[type=number] 
+{
+    background-color: rgb(180, 74, 74);
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    width: 100% ; 
+}
