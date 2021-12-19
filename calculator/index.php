@@ -42,9 +42,11 @@
                 if ( $number2 == 0 )
                 {
                     echo "impossible on divise pas sur 0 " ; 
+                }else
+                {
+                    $sum =  $number1/$number2;     
+                    echo "c = ".$sum; 
                 } 
-                $sum =  $number1/$number2;     
-                echo "c = ".$sum;   
             } 
             if(isset($_POST['*']))  
             {  
